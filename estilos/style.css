@@ -473,15 +473,15 @@ header { background-color:#ffffff;
           font-family: Hind Light;
       }
 
-      .menu ul li {
+      .menu ul li 
         display:inline-block;
         position: ;
         padding: 2px;
         margin-top: -80px;
         font-size: 16px;
-      }
+      
 
-      .menu a {
+      .menu a 
        color: #95a194;
        padding: 5px 10px;
        text-decoration: none;
@@ -490,7 +490,7 @@ header { background-color:#ffffff;
        font-family: Hind Light;
        letter-spacing: 1px;
        
-       }
+       
 
 
 .menu a:hover{
@@ -579,7 +579,7 @@ header { background-color:#ffffff;
        /*Tablet a index*/
 
 
-               .menu{
+               .menu
                   display: flex;
                   justify-content: center;
                   background-color:#f1e5eb;
@@ -588,7 +588,7 @@ header { background-color:#ffffff;
                   padding: 20px;
                   position: absolute;
                   top: 120px;
-             } 
+              
              
 
                .carousel {     position: relative;
@@ -726,14 +726,14 @@ header { background-color:#ffffff;
 
        /*Smartphone a index*/
 
-       .menu{ 
+       .menu
                   background-color:#43f151;
                   width: 95%;
                   height: 25%;
                   padding: 20px;
                   position: absolute;
                   top: 120px;
-           }
+           
 
        .carousel {position: relative;
               top: 200px;
@@ -841,11 +841,19 @@ header { background-color:#ffffff;
 
 .infofooter{
             background-color: #fbf4ef;
+            position: absolute;
+            top: 1400px;
+            height: 120px;
+}
+
+.infofooter .logosRedes{
+             position: relative;
+             top: 1380px;
 }
 
 #infoMain{ background:linear-gradient(#ddb0a6 #fbf4ef);
            width: 90%;
-           height: 800px;
+           height: 600px;
            padding: 50px;
            margin: 40px;
            text-align: left;
@@ -858,6 +866,10 @@ header { background-color:#ffffff;
            
 
 }
+
+
+
+
 
 .containerPedidos{
                   width: 600px;

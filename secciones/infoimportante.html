@@ -5,6 +5,8 @@
             <link rel="shotcut icon"  href="../assets/favicon.png">
             <link rel="stylesheet" href="../bootstrap-local/css/bootstrap.css">
             <link rel="stylesheet" href="../estilos/style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+           
 
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -14,7 +16,7 @@
         <body class="bodyinfo"> <!-- En body va todo lo visible para el usuario en pantalla-->
 
                     <header>
-
+                   
                         <div class="socaloArriba">
                             <h5>TIEMPO DE ELABORACIÓN entre 4 y 6 días
                                   hàbiles |  3 cuotas sin interés + 10% OFF con trasnferencia
@@ -33,22 +35,49 @@
                             </ul>
                         </nav>
 
+                        <div class="container">
                         
-                        <nav class="menu">
-                           <ul>
-                                <li>   <a href="../index.html"  target="blank">INICIO</a></li>
-                                <li> <a href="mundodou.html"   target="blank">MUNDO DOU</a></li> 
-                                <li>     <a href="infoimportante.html">INFO IMPORTANTE</a></li>
-                                <li>    <a href="productos.html"   target="blank">PRODUCTOS</a></li>
-                                <li class="novedades">  <a href="#">NOVEDADES</a>
-                                    <ul class="desplegable">
-                                       <li class="subitem1"> <a href="#">SUBITEM 1</a></li>
-                                       <li class="subitem2"><a href="#">SUBITEM 2</a></li>
+                          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                           
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link"  href="../index.html">INICIO</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link"  href="mundodou.html">MUNDO DOU</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="infoimportante.html">INFO IMPORTANTE</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      NOVEDADES
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
-                                </li>
-                                 <li>    <a href="contacto.html">CONTACTO</a></li>
-                           </ul>
-                        </nav>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="contacto.html">CONTACTO</a>
+                                    </li>
+                                  
+                              </div>
+                            </div>
+                          </nav>
+
+                     </div> <!--fin container-->
+                     
+
                     </header>
                     <hr>
 
@@ -192,7 +221,7 @@
 
                                   
 
-                                </section>
+                               
 
 
 
@@ -201,10 +230,67 @@
 
                                      
                                            
-       
+                                      <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button bg-success" style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              ¿Puedo realizar una compra al por mayor?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              Si, dentro de los productos LISTOS PARA ENCARGAR. También se puede armar algo a tu medida. Charlemos! Escribime a estudiodou@gmail.com
+
+
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed bg-success" style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              ¿Puedo comprar varios productos a la vez?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              Si, una vez que hayas agregado un producto al carrito de compras selecciona SEGUIR COMPRANDO así podrás elegir tantos artículos como quieras y pagar un único costo de envío por todos los productos.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed bg-success" style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              ¿Puedo dividir el pago con dos tarjetas?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              Si, es posible.  Cuando te ingreses los datos de la tarjeta selecciona QUIERO PAGAR CON DOS TARJETAS
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                          <button class="accordion-button collapsed bg-success" style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            ¿Cómo utilizar un código de descuento?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            Lo podrás ingresar dentro del proceso de compra.
+
+                                            Seleccioná el producto y agregalo al carrito de compras  (AÑADIR AL CARRITO). Luego hace clic en INICIAR COMPRA,
+                                             a tu derecha aparecerá el producto y abajo podrás ingresar el código de decuento.
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                 
                    
        
-                                       </section>
+                                    
 
                                        
 
@@ -221,7 +307,7 @@
                 
                                 <h5 class="redesSociales">REDES  SOCIALES  
                 
-                                <section class="logosredes">
+                                <section class="logosRedes">
                                 
                 
                                 <a href="#"><img src="../assets/logoinstagram.png"></a>
