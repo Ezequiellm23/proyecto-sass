@@ -3,7 +3,9 @@
   <head> <!-- Va info que solo ve el navegador o servidor-->
             <title>Info Importante</title>
             <link rel="shotcut icon"  href="../assets/favicon.png">
+            <link rel="stylesheet" href="../bootstrap-local/css/bootstrap.css">
             <link rel="stylesheet" href="../estilos/style.css">
+
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -57,131 +59,159 @@
                              <div class="containerPedidos">
 
 
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button bg-success" style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            ¿CÓMO HACER UN PEDIDO?
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Antes de hacer una compra, tené en cuenta las descripciones de los productos y opciones que cada producto ofrece.
 
-                                 <section class="menu1">
-                                     <a href="#menu1">¿Cómo hacer un pedido?</a>
-                                     <p>Antes de hacer una compra, tené en cuenta las descripciones 
-                                         de los productos y opciones que cada producto ofrece.
-                                    </p>
-                                    <ol>
-                                        <li>Elegí los productos que más te gusten y agregalos al carrito de compra.</li>
-                                        <li>Si tu pedido es PERSONALIZADO: en el último paso antes de pagar, 
-                                            agregá la info. personalizable en “NOTAS DE PEDIDO” (como por ejemplo nombre/s).
-                                        </li>
-                                        <li>Cuando tu pedido esté listo me pondré en contacto con vos 
-                                            vía mail para que acordemos el retiro o envío.</li>
-                                  </ol>
-                                 </section>
+                                            <ol>
+                                                <li>Elegí los productos que más te gusten y agregalos al carrito de compra.</li>
+                                                <li>Si tu pedido es PERSONALIZADO: en el último paso antes de pagar, agregá la info. personalizable en “NOTAS DE PEDIDO” (como por ejemplo nombre/s).</li>
+                                                <li> Cuando tu pedido esté listo me pondré en contacto con vos vía mail para que acordemos el retiro o envío.</li>
+                                         </ol>  
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed bg-success" style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            TIEMPOS DE DISEÑO  Y PRODUCCIÓN
+                                        </button>
+                                      </h2>
+                                      <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                              
+                                            <strong>Todos los productos se realizan por encargo. ​El tiempo de elaboración depende del tipo de artículo:</strong>
+                                             <ul>
+                                                <li>LISTO PARA ENCARGAR: entre 3 y 5 días hábiles</li>
+                                                <li>PERSONALIZADO: entre 5 y 7 días hábiles</li>
+                                             </ul>
 
 
-                                <section class="menu2">
-                                     <a href="#menu2">Tiempos de diseño y producción</a>
-                                      <p>Todos los productos se realizan por encargo. 
-                                          El tiempo de elaboración depende del tipo de artículo:</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed bg-success"  style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          LISTOS PARA ENCARGAR
+                                        </button>
+                                      </h2>
+                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Productos ya diseñados que no se pueden personalizar.  
+                                            <ul>
+                                                <li>3 y 5 días de producción + empaquetado</li>
+                                            </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
 
-                                          <ul>
-                                              <li>LISTO PARA ENCARGAR: entre 3 y 5 días hábiles.</li>
-                                              <li>PERSONALIZADO: entre 5 y 7 días hábiles</li>
-                                                
-
-                                          </ul>
-                                </section>
-
-                                <section class="menu3">
-                                    <a href="#menu3">LISTO PARA ENCARGAR: Productos ya diseñados 
-                                        que no se pueden personalizar.</a>
-
-                                         <ul>
-                                             <li>3 y 5 días de producción + empaquetado</li>
-                                         </ul>
-                                </section>
-                                    
-                                <section class=menu4>
-                                    <a href="#menu4">PERSONALIZADOS: Productos customizados con nombre, frase, etc.</a>
-                                        
-                                
-                                       <ul>
-                                             <li>Entre 5 y 10 días de diseño + producción + empaquetado</li>
-                                             <li>Ver todos los productos de esta categoría 
-                                                 > www.mundodou.com.ar/personalizados/
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                      <button class="accordion-button collapsed bg-success"  style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                       PERSONALIZADOS
+                                      </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                        Productos customizados con nombre, frase, etc
+                                        <ul>
+                                            <li>Entre 5 y 10 días de diseño + producción + empaquetado</li>
+                                            <li>Ver todos los productos de esta categoría > www.mundodou.com.ar/personalizados/
                                             </li>
-                                         </ul>
+                                        </ul>
 
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                      <button class="accordion-button collapsed bg-success"  style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        OPCIONES PARA RECIBIR / RETIRAR EL PEDIDO
+                                      </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                        <strong>RETIRO</strong> gratuito por Martínez (GBA) - A coordinar día y horario.
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                      <button class="accordion-button collapsed bg-success"  style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        ENVIOS A CABA Y GBA
+                                      </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                        Envíos puerta a puerta a través de un servicio logístico privado.
+                                        <ul>
+                                            <li>Tarifa: $350 (se abona en efectivo al recibir el pedido)</li>
+                                            <li>Días: martes y jueves</li>
+                                            <li>Es necesario coordinar con 24 hs de anticipación</li>
+                                        </ul>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                      <button class="accordion-button collapsed bg-success"  style="--bs-bg-opacity: .3;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        ENVIOS A TODO EL PAÍS
+                                      </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                        Envíos por Correo Argentino PAQ AR, servicio logístico para E-Commerce 
+                                        a un precio más bajo que la encomienda clásica.
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+                                
+
+                                  
 
                                 </section>
 
 
 
-                             </div>
+                            </div>
                                       <h3>PREGUNTAS FRECUENTES</h3>
 
-                                      <div class="containerPreguntas">
-                                        <section class="menu1">
-                                            <a href="#menu1">¿Puedo realizar una compra al por mayor?</a>
-                                            <p>Si, dentro de los productos LISTOS PARA ENCARGAR. También se puede armar algo a tu medida. 
-                                                Charlemos! Escribime a estudiodou@gmail.com
-                                            </p>
-       
-       
-                                           
-                                        </section>
-       
-       
-                                       <section class="menu2">
-                                            <a href="#menu2">¿Puedo comprar varios productos a la vez?</a>
-                                             <p>Si, una vez que hayas agregado un producto al carrito de compras selecciona SEGUIR COMPRANDO 
-                                                 así podrás elegir tantos artículos como quieras y pagar un único costo de envío por todos los productos.
-                                               </p>
-       
-                                               
-                                       </section>
-       
-                                       <section class="menu3">
-                                           <a href="#menu3">¿Puedo dividir el pago con dos tarjetas?</a>
-                                           <p>Si, es posible.  Cuando te ingreses los datos de la tarjeta selecciona
-                                                QUIERO PAGAR CON DOS TARJETAS
-                                           </p>
-       
-                                                
-                                       </section>
-                                           
-                                       <section class=menu4>
-                                           <a href="#menu4">Como utilizar un código de descuento?</a>
-                                           <p>Lo podrás ingresar dentro del proceso de compra.</p>
-                                           <p>Seleccioná el producto y agregalo al carrito de compras  
-                                               (AÑADIR AL CARRITO). Luego hace clic en INICIAR COMPRA, a tu derecha aparecerá el producto 
-                                               y abajo podrás ingresar el código de decuento.
-                                           </p>
-       
-                                       </section>
-       
-                                      
-       
-       
-                                       <section class=menu5>
-                                           <a href="#menu5">¿Qué pasa si mi envio no llega?</a>
-                                           <p>No te preocupes! Escribinos a estudiodou@gmail.com.
-                                                Analizaremos lo sucedido en el correo y te lo contactaremos para volver a realizar el envío.
-       
-                                           </p>
+                                     
                                            
        
-                                       </section>
-       
-                                       <section class=menu6>
-                                           <a href="#menu6">Envio internacional</a>
-                                           <p>EscribInos a estudiodou@gmail.com y vemos todas las opciones disponibles.
-                                           </p>
-                                           
+                   
        
                                        </section>
 
-                                       <img src="../assets/codigodedescuento.png" alt="codigo de descuento">
+                                       
 
                         </main>
                               <hr>
-
-                              <footer class="botonesFooter">
+                               <footer class="infofooter">∑
+                              <section class="botonesFooter">
 
                                 <a href="#arriba">Volver a inicio</a>
                 
@@ -201,5 +231,9 @@
                                 </h5>                
                                 </section>
                               </footer>
+
+                  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
+                  <script src="../bootstrap-local/js/bootstrap.js"></script> 
         </body>
     </html>

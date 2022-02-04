@@ -839,6 +839,10 @@ header { background-color:#ffffff;
        
 }
 
+.infofooter{
+            background-color: #fbf4ef;
+}
+
 #infoMain{ background:linear-gradient(#ddb0a6 #fbf4ef);
            width: 90%;
            height: 800px;
@@ -857,6 +861,9 @@ header { background-color:#ffffff;
 
 .containerPedidos{
                   width: 600px;
+                  position: relative;
+                  top: 10px;
+                  
                   
 
 }
@@ -894,7 +901,7 @@ header { background-color:#ffffff;
 }
 
 .containerPedidos :target{
-       max-height: 100%;
+       max-height: 200%;
 }
 
 .section:target p{
@@ -953,6 +960,8 @@ header { background-color:#ffffff;
 
 #infoMain h3{
              font-family: Hind Light;
+             position: relative;
+             top: 0px;
 }
           
  #contactoMain{ 
