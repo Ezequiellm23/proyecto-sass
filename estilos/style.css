@@ -1352,10 +1352,14 @@ header { background-color:#ffffff;
 
 
 
-.contenedorCarteles a{
+.containerCarteles a{
                      width: 100%;
                      margin: 5px;
                      padding: 5px;
+}
+
+.containerCarteles img{
+                       max-width: 100%;
 }
 
 .contenedorTarjetas a{
@@ -1368,8 +1372,9 @@ header { background-color:#ffffff;
 
 /*Carteles Flex*/
 
-.cartelesImagenes{
-                 display: flex;
+.gallery{
+              
+                 padding: 80px 0;
 }
 
 /*Tarjetas Cumple Mes Flex*/
