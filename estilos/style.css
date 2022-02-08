@@ -839,33 +839,82 @@ header { background-color:#ffffff;
        
 }
 
-.infofooter{
+.infoFooter{
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            background: #fbf4ef;
+            padding: 5px;
+            
+}
+
+.infoFooter h5 {
+              text-decoration: none;
+              color: #e8bf6d;
+              font-family: Hind Light;
+
+}
+
+.infoFooter a{ color:#e8bf6d ;
+               text-decoration: none;
+
+}
+.infoFooter .text {
+                   color:#e8bf6d ;
+}
+
+.infoFooterMain{
+                display: flex;
+                justify-content: center;
+
+
+}
+
+.infoFooterMain .box { 
+                     flex-basis: 50%;
+                     padding: 10px 20px;
+                    
+
+
+}
+
+.box h5{
+       font-size: 1.125rem;
+       font-weight: 600;
+
+}
+
+.leftBox a{
+         display:inline-block;
+}
+
+
+
+.infofooter
             background-color: #fbf4ef;
             position: absolute;
             top: 1400px;
             height: 120px;
-}
 
-.infofooter .logosRedes{
+
+.infofooter .logosRedes
              position: relative;
              top: 1380px;
-}
 
-#infoMain{ background:linear-gradient(#ddb0a6 #fbf4ef);
+
+.infoMain background:linear-gradient(#ddb0a6 #fbf4ef);{
            width: 90%;
-           height: 600px;
+           height: 2000px;
            padding: 50px;
            margin: 40px;
            text-align: left;
            position: relative;
            z-index: -5;
            top: 200px;
+       }
            
-           
-        
            
 
-}
 
 
 
@@ -958,10 +1007,10 @@ header { background-color:#ffffff;
 }
 
 
-#infoMain section{ margin left: 500px;
+#infoMain section margin left: 500px;
                   
 
-}
+
 
 
 #infoMain p{
@@ -1334,7 +1383,7 @@ header { background-color:#ffffff;
 /* Carteles*/
 .bodyCarteles{
        background-color: #ffffff;
-       height: 2000px;
+       height: 600px;
        width: 90∞;
        display: grid;
        min-height:100vh;
@@ -1348,6 +1397,12 @@ header { background-color:#ffffff;
      position: relative;
      top: 300px
     
+}
+
+.card-title{
+            text-decoration: none;
+            color: #9694a1;
+            font: Hind Light;
 }
 
 
