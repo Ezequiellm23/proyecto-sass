@@ -11,6 +11,19 @@
 
 /*Desktop a toda seccion*/
 
+.imagenPrueba{ max-width: 20%;
+               
+               
+
+}
+
+.probando{
+          display: flex;
+          justify-content: center;
+
+       
+}
+
 @media (min-width:1024px){
 
        
@@ -1422,6 +1435,7 @@ header { background-color:#ffffff;
                     margin: 5px;
                     padding: 5px;
 }
+
 
 
 
