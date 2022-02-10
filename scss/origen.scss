@@ -1,0 +1,77 @@
+//Secciones en comun
+
+header{
+
+       .socaloArriba{background-color:#95a194;
+        width: 100%;
+        height: 30px;
+        z-index: 200;
+
+                      
+
+       }//Fin socaloArriba
+       
+       
+       .logoClass{
+                 
+                 .logoDelHeader{position: relative; 
+                    display: flex;
+                    justify-content: center;
+                    height: 80px;
+                    left: 550px;
+                    z-index: 10;
+
+
+
+                 }//cierre logoDelHeader
+                 
+                 .logoDelHeader{
+             
+                    transition: height 1s;
+                                
+                 }
+
+                 .logoDelHeader:hover {
+                    height: 90px;
+                   
+                }
+                 
+
+
+
+       }//cierre logoClass
+
+       
+
+
+
+}//cierre header
+
+//Index
+
+
+
+.textosBajos{ background-color: aqua;
+         
+            .container{ 
+
+                div{display: inline;
+
+               
+
+                
+
+                p {
+                    text-decoration: none;
+                    color: gray;
+                  }
+
+              }
+
+           }//cierre container
+
+
+
+
+
+} //cierre textosBajos
