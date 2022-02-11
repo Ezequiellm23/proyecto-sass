@@ -27,6 +27,18 @@ header .logoClass .logoDelHeader:hover {
 footer div .text {
   color: #e8bf6d; }
 
+.bodyIndex .opcionesUsuario {
+  position: relative;
+  left: 950px;
+  top: 2px;
+  text-decoration: none;
+  list-style: none; }
+  .bodyIndex .opcionesUsuario a {
+    color: #95a194;
+    text-decoration: none;
+    font-family: Hind Light;
+    font-size: small; }
+
 .bodyIndex main {
   text-align: center; }
   .bodyIndex main h4 {
