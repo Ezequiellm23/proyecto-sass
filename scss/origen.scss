@@ -1,13 +1,20 @@
+//Variables
+
+$verdedou: #95a194;
+$mostazadou:#e8bf6d;
+$tipografiadou: Hind Light;
+
 //Secciones en comun
+
 
 header{
 
-       .socaloArriba{background-color:#95a194;
+       .socaloArriba{background-color:$verdedou;
         width: auto;
         height: 30px;
         z-index: 200;
         text-align: center;
-        font-family: ;
+        font-family: $tipografiadou;
         
       
         
@@ -49,7 +56,19 @@ header{
 
        }//cierre logoClass
 
-       
+       .cuentaSesion{
+
+        
+                    .opcionesUsuario{
+                                    
+                                   li{
+                                    display: inline-block;
+                                    position: relative;
+                                    bottom: 70px;;
+                                   }
+
+                    }
+       }  
 
 
 
@@ -57,9 +76,10 @@ header{
 
 footer{
           div{
+            color: $mostazadou;
 
                .text{
-                     color: #e8bf6d;
+                     color: $mostazadou;
                }
 
 
@@ -77,12 +97,16 @@ footer{
                          top: 2px;
                          text-decoration: none; 
                          list-style: none;
+                        
 
                          a{
-                             color: #95a194;
+                             color: $verdedou;
                              text-decoration: none;
-                             font-family: Hind Light;
+                             font-family: $tipografiadou;
                              font-size: small;
+                             &:hover{
+                                color: #7c877b;
+                        }
                             
                          }
                          
@@ -100,8 +124,8 @@ footer{
            
 
       
-           h4{ color: #95a194;
-            font-family: Hind Light;
+           h4{ color: $verdedou;
+            font-family: $tipografiadou;
       
       
             }
@@ -132,4 +156,37 @@ footer{
 
 } //cierre textosBajos
 
+
+//Info importante
+
+.bodyinfo{
+
+
+          header{
+
+            .socaloArriba{background-color:$verdedou;
+                width: auto;
+                height: 30px;
+                z-index: 200;
+                text-align: center;
+                font-family: $tipografiadou;
+              
+             p{color: white;
+                padding: 5px;
+                font-size: small;
+
+             }   
+
+
+            }
+
+
+
+
+            
+          }
+
+
+
+}
 

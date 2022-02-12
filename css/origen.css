@@ -24,8 +24,15 @@ header .logoClass .logoDelHeader {
 header .logoClass .logoDelHeader:hover {
   height: 90px; }
 
-footer div .text {
+header .cuentaSesion .opcionesUsuario li {
+  display: inline-block;
+  position: relative;
+  bottom: 70px; }
+
+footer div {
   color: #e8bf6d; }
+  footer div .text {
+    color: #e8bf6d; }
 
 .bodyIndex .opcionesUsuario {
   position: relative;
@@ -38,6 +45,8 @@ footer div .text {
     text-decoration: none;
     font-family: Hind Light;
     font-size: small; }
+    .bodyIndex .opcionesUsuario a:hover {
+      color: #7c877b; }
 
 .bodyIndex main {
   text-align: center; }
@@ -50,3 +59,15 @@ footer div .text {
   .textosBajos .container div p {
     text-decoration: none;
     color: gray; }
+
+.bodyinfo header .socaloArriba {
+  background-color: #95a194;
+  width: auto;
+  height: 30px;
+  z-index: 200;
+  text-align: center;
+  font-family: Hind Light; }
+  .bodyinfo header .socaloArriba p {
+    color: white;
+    padding: 5px;
+    font-size: small; }
